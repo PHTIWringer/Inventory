@@ -1,0 +1,53 @@
+/* Boilerplate CSS*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /*1 rem = 10px */
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  line-height: 1;
+  color: black;
+  overflow-x: hidden;
+  background-color: #cecece; /*margin color*/
+}
+
+/*Structure*/
+
+.content-wrapper {
+  background-color: white;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.title,
+.nav-link-btns {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.addItem-btn,
+.inventory-btn,
+.allocation-btn {
+  color: black;
+  padding: 0;
+  height: 40px;
+  width: 120px;
+}
+
+.nav-link-btns {
+  margin-right: 100px;
+}
