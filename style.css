@@ -31,6 +31,19 @@ body {
   border-radius: 10px;
 }
 
+.dynamic-content {
+  background-color: #f4f4f4; /* Light grey background */
+  margin: 20px 0; /* Some margin at the top and bottom */
+  padding: 20px; /* Padding inside the box */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  /* Adjust width as needed, you can use flexbox or grid in parent to handle this more elegantly */
+  width: 70%;
+  float: right; /* Align to the right */
+  height: 300px; /* Or any desired height */
+  overflow-y: auto; /* Allow vertical scrolling */
+}
+
 .title {
   margin: auto;
   width: 100%;
