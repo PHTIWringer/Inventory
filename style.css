@@ -31,23 +31,65 @@ body {
   border-radius: 10px;
 }
 
-.title,
-.nav-link-btns {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
+.title {
+  margin: auto;
   width: 100%;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding: 10px;
 }
 
-.addItem-btn,
-.inventory-btn,
-.allocation-btn {
-  color: black;
-  padding: 0;
-  height: 40px;
-  width: 120px;
+.date-time {
+  margin: auto;
+  text-align: right;
+  width: 100%;
+  padding: 5px;
 }
 
-.nav-link-btns {
-  margin-right: 100px;
+/* BUTTONS */
+
+.hide-show-button-menu-header button {
+  display: block;
+  width: 25%;
+}
+
+.hide-show-button-menu-header {
+  padding-top: 10px;
+}
+
+.menu-header,
+.menu-btn {
+  background-color: #04aa6d;
+  border: 1px solid green;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+
+.nav-link-btns button {
+  background-color: #04aa6d; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 25%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+}
+
+.nav-link-btns button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.nav-link-btns button:hover {
+  background-color: #3e8e41;
+}
+
+.hide-show-button-menu-header button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.hide-show-button-menu-header button:hover {
+  background-color: #3e8e41;
 }

@@ -6,14 +6,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- CONTENT WRAPPER-->
     <div class="content-wrapper">
       <header>
+        <!-- APLICATION TITLE-->
+        <h3 class="date-time">Date Time</h3>
         <h1 class="title">Inventory</h1>
       </header>
+
+      <!-- SUB MENU HEADER WITH HIDE/SHOW BTN-->
+
+      <div class="hide-show-button-menu-header">
+        <button class="menu-header">Menu</button>
+        <button class="menu-btn">|||</button>
+      </div>
+
       <nav class="nav-link-btns">
-        <a href="addItem.html" class="addItem-btn">Add Item</a>
-        <a href="#inventory" class="inventory-btn">Inventory</a>
-        <a href="#allocation" class="allocation-btn">Allocation</a>
+        <!--APPLICATION BUTTONS-->
+        <nav class="task-btns">
+          <button>Current Inventory</button>
+          <button>Add Inventory</button>
+          <button>Remove Inventory</button>
+          <button>List</button>
+          <button>Settings</button>
+          <button>Account</button>
+        </nav>
       </nav>
     </div>
   </body>
